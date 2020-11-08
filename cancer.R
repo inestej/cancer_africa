@@ -22,9 +22,12 @@ df
 colnames(df) <- c("Region", "HDI", "Cancer", "FR")
 df
 
+#method = "lm", color = "chocolate", span = 0.9, se=TRUE, fullrange=TRUE
+
 s <- ggplot(df, aes(x=HDI, y=FR, shape=Cancer, color=Region))
 s <- s + geom_point() #+ geom_label(colour="darkred", fontface = "bold", label=rownames(df))
-s <- s + stat_smooth(formula = y~x, method="lm", level = 0.05, color="darkred", fill="blue") 
+s <- s + stat_smooth(formula=y~x, method="lm", level = 0.25, 
+                     color="darkgreen", fill="darkgreen", span=0.9, se=TRUE, fullrange=TRUE)
 s <- s + annotate("text",colour='chocolate', x=0.62, y=75, label= paste("P-value=",pv4,"\n","rSquared=",rSquared4))+
   labs(title = "HDI versus Cancer (Breast, Prostate\n and Cervical) Fatality Rate in Africa",
        caption = "Data source: Globocan 2018 and UNESCO")+
@@ -37,7 +40,7 @@ ggsave("hdi.png")
 
 s <- ggplot(df, aes(x=HDI, y=FR), shape=Cancer)
 s <- s + geom_point(aes(color=Cancer)) 
-s <- s + stat_smooth(method="lm", level = 0.05, color="darkred", fill="blue") 
+s <- s + stat_smooth(method="lm", level = 0.25, color="darkred", fill="blue", se=TRUE, fullrange=TRUE) 
 s <- s + annotate("text",colour='chocolate', x=0.62, y=75, 
                   label= paste("P-value=", pv4,"\n", "rSquared=", rSquared4)) +
   labs(title="HDI versus Cancer (Breast, Prostate\n and Cervical) Fatality Rate in Africa",
@@ -51,7 +54,7 @@ ggsave("hdi1.png")
 
 s <- ggplot(df, aes(x=HDI, y=FR, color=Region))
 s <- s + geom_point(aes(shape=Cancer)) 
-s <- s + stat_smooth(method = "lm", color = "chocolate", span = 0.9, se=FALSE) 
+s <- s + stat_smooth(method = "lm", color = "chocolate", span = 0.9, se=TRUE, fullrange=TRUE) 
 s <- s + annotate("text",colour='chocolate', x=0.62, y=65, label= paste("P-value=",pv4,"\n","rSquared=",rSquared4))+
   labs(title = "HDI versus Cancer Fatality Rate\n of Cervical and Prostate in Africa",
        caption = "Data source: Globocan 2018 and UNESCO")+
