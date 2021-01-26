@@ -71,7 +71,7 @@ s <- s + stat_smooth(method = "lm", color = "chocolate", span = 0.9, se=TRUE, fu
 s <- s + #annotate("text",colour='chocolate', x=0.62, y=60, label= paste("P-value=", pv3,"\n","rSquared=", rSquared3)) +
   labs(title = "HDI versus Cancer (Breast, Prostate\n and Cervical) Incidence Rate in Africa",
        caption = "Data source: Globocan 2018 and UNESCO")+
-  xlab("Human Developpement Index (2018)") + ylab("IR (per 100 000 inhabitant)")
+  xlab("Human Developpement Index (2018)") + ylab("IR (per 100,000 inhabitant)")
 s + geom_vline(xintercept = 0.56, linetype="dotted", color = "blue", size=0.5)+
   annotate("text",colour='blue', x=0.52, y=17, label="Low HDI")+
   annotate("text",colour='blue', x=0.61, y=17, label="Medium HDI")
