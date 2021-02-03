@@ -9,15 +9,13 @@ region <- c("Northern", "West", "Central", "East", "Southern")
 hdi <- rep(c(0.682, 0.494, 0.543, 0.546, 0.641), c(3,3,3,3,3))
 region <- rep(c("Northern", "Western", "Central", "Eastern", "Southern"), c(3,3,3,3,3))
 df <- data.frame(region, hdi)
-cancer <- c("Breast", "Prostate", "Cervical", "Breast", "Prostate", "Cervical", "Breast", "Prostate", "Cervical", "Breast", "Prostate", "Cervical", "Breast", "Prostate", "Cervical")
+cancer <- c("Breast", "Prostate", "Cervical", "Breast", "Prostate", "Cervical", "Breast", "Prostate", 
+            "Cervical", "Breast", "Prostate", "Cervical", "Breast", "Prostate", "Cervical")
 df <- cbind(df, cancer)
 str(df)
-#attach(cancer)
-df <- df[order(cancer, decreasing = FALSE),]
-df
-df <- cbind(df, c(breast, cervical, prostate))
 
-df
+df <- df[order(cancer, decreasing = FALSE),]
+df <- cbind(df, c(breast, cervical, prostate))
 colnames(df) <- c("Region", "HDI", "Cancer", "FR")
 df
 
@@ -32,8 +30,7 @@ s <- s + #annotate("text",colour='chocolate', x=0.62, y=65, label= paste("P-valu
 s + geom_vline(xintercept = 0.56, linetype="dotted", color = "blue", size=0.5)+
   annotate("text",colour='blue', x=0.52, y=20, label="Low HDI") +
   annotate("text",colour='blue', x=0.61, y=20, label="Medium HDI") #+
-#scale_x_continuous("My x label") +
-#scale_y_continuous("My y label") 
+
 ggsave("hdi.png")
 
 
@@ -48,15 +45,13 @@ region <- c("Northern", "Western", "Central", "Eastern", "Southern")
 hdi <- rep(c(0.682, 0.494, 0.543, 0.546, 0.641), c(3,3,3,3,3))
 region <- rep(c("Northern", "Western", "Central", "Eastern", "Southern"), c(3,3,3,3,3))
 dp <- data.frame(region, hdi)
-cancer <- c("Breast", "Prostate", "Cervical", "Breast", "Prostate", "Cervical", "Breast", "Prostate", "Cervical", "Breast", "Prostate", "Cervical", "Breast", "Prostate", "Cervical")
+cancer <- c("Breast", "Prostate", "Cervical", "Breast", "Prostate", "Cervical", 
+            "Breast", "Prostate", "Cervical", "Breast", "Prostate", "Cervical", "Breast", "Prostate", "Cervical")
 dp <- cbind(dp, cancer)
 str(dp)
-#attach(cancer)
-dp <- dp[order(cancer, decreasing = FALSE),]
-dp
-dp <- cbind(dp, c(breast, cervical, prostate))
 
-dp
+dp <- dp[order(cancer, decreasing = FALSE),]
+dp <- cbind(dp, c(breast, cervical, prostate))
 colnames(dp) <- c("Region", "HDI", "Cancer", "IR")
 dp
 
