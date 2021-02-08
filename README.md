@@ -11,13 +11,13 @@ Our results highlight the urgent need for African countries to put cancer in the
 
 
 ## Breast cancer
-
+https://github.com/inestej/cancer_africa/blob/master/BreastCancerAfrica.ipynb
 
 ## Prostate cancer
 
 
 ## Cervical cancer
-
+https://github.com/inestej/cancer_africa/blob/master/CervicalCancerAfrica.ipynb
 
 ## Lung cancer
 
@@ -26,7 +26,7 @@ Our results highlight the urgent need for African countries to put cancer in the
 
 
 ## Colorectal Cancer
-
+https://github.com/inestej/cancer_africa/blob/master/ColorectalCancerAfrica.ipynb
 
 ## Esophageal cancer
 
@@ -35,6 +35,7 @@ Our results highlight the urgent need for African countries to put cancer in the
 
 
 ## Bladder cancer
+https://github.com/inestej/cancer_africa/blob/master/BladderCancerAfrica.ipynb 
 
 
 ## Thyroid cancer
