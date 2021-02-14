@@ -5,7 +5,7 @@
 The worksheets represent the detailed Python code for collating and analyzing the incidence and fatality rates for the 10 most common and fatal cancers in 56 African countries from 5 different African regions (North, West, East, Central, and South) over 16-years (2002–2018). Analysis is performed by gender, by Human Development Index, and by the number of available medical devices. 
 
 Data are available in https://github.com/inestej/cancer_africa/blob/master/PaysdAfrique.xlsx and https://github.com/inestej/cancer_africa/blob/master/regionsAfrique.xlsx
-The cancer profile is established in GLOBOCAN using the best available data sources (on cancer incidence and fatality) in a given country; the validity of the national estimates depends on the degree of representativeness and the quality of the information sources. These data are produced by population-based cancer registries (PBCRs). According to the most recent data compiled in Volume XI of the IARC Report on Cancer Incidence in Five Continents, about 15% of the world population was covered by high quality cancer registries by 2010, with lower registration rates in South America (7.5% of the total population), Asia (6.5%) and Africa (13% when considering additional data from the sub-Saharan African registries of the African Cancer Registry Network (https://afcrn.org/)). In Africa, these registries are the only source of relatively unbiased information \cite{bray2018global}. 
+The cancer profile is established in GLOBOCAN using the best available data sources (on cancer incidence and fatality) in a given country; the validity of the national estimates depends on the degree of representativeness and the quality of the information sources. These data are produced by population-based cancer registries (PBCRs). According to the most recent data compiled in Volume XI of the IARC Report on Cancer Incidence in Five Continents, about 15% of the world population was covered by high quality cancer registries by 2010, with lower registration rates in South America (7.5% of the total population), Asia (6.5%) and Africa (13% when considering additional data from the sub-Saharan African registries of the African Cancer Registry Network (https://afcrn.org/)). In Africa, these registries are the only source of relatively unbiased information. 
 
 We classify the 10 cancers into 3 categories based on their risk factors: genetics, environmental/lifestyle and infectious-disease linked cancers. Northern and Southern Africa were most similar in their cancer incidences and fatality rates compared to other African regions, likely due to similarities in urbanization and lifestyle westernization. The most prevalent cancers are breast, bladder and liver cancers in Northern Africa; prostate, lung and colorectal cancers in Southern Africa, and esophageal and cervical cancer in East Africa. The incidence of breast, prostate and cervical cancers are increasing in all African regions, representing a public health burden, particularly in Northern and Southern Africa. Fatality rates for breast cancer have decreased during the last years thanks to increased awareness and improvement in healthcare facilities. In Southern Africa, in particular, fatality rates from prostate and cervical cancer (in 2018) have increased.  In addition, these three cancers are less fatal in Northern and Southern Africa compared to other regions, which correlates with the Human Development Index and the availability of medical devices. With the exception of thyroid cancer, incidence was higher in males than females for the remaining six relevant cancer types. 
 
@@ -52,14 +52,5 @@ https://github.com/inestej/cancer_africa/blob/master/Medical%20Devices%20Africa.
 # Human Development Index (HDI) and Cancer (Breast, Prostate & Cervical)
 https://github.com/inestej/cancer_africa/blob/master/hdi_versus_cancer.R
 
+#### Citation
 
-@article{bray2018global,
-  title={Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries},
-  author={Bray, Freddie and Ferlay, Jacques and Soerjomataram, Isabelle and Siegel, Rebecca L and Torre, Lindsey A. and Jemal, Ahmedin},
-  journal={CA: a cancer journal for clinicians},
-  volume={68},
-  number={6},
-  pages={394--424},
-  year={2018},
-  publisher={Wiley Online Library}
-}
