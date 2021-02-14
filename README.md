@@ -25,11 +25,11 @@ Our results highlight the urgent need for African countries to put cancer in the
 [Bladder cancer](https://github.com/inestej/cancer_africa/blob/master/BladderCancerAfrica.ipynb) and 
 [Thyroid cancer](https://github.com/inestej/cancer_africa/blob/master/ThyroidCancerAfrica.ipynb). 
 
-## Available medical devices
+#### Available medical devices
 [Medical devices code](https://github.com/inestej/cancer_africa/blob/master/Medical_devices.ipynb) and 
 [Medical devices Africa.xlsx](https://github.com/inestej/cancer_africa/blob/master/Medical%20Devices%20Africa.xlsx). 
 
-## Human Development Index (HDI) and Cancer (Breast, Prostate & Cervical)
+#### Human Development Index (HDI) and Cancer (Breast, Prostate & Cervical)
 [HDI code](https://github.com/inestej/cancer_africa/blob/master/hdi_versus_cancer.R)
 
 # Citation
