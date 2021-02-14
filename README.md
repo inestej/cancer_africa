@@ -32,5 +32,5 @@ Our results highlight the urgent need for African countries to put cancer in the
 #### Human Development Index (HDI) and Cancer (Breast, Prostate & Cervical)
 [HDI code](https://github.com/inestej/cancer_africa/blob/master/hdi_versus_cancer.R)
 
-# Citation
+
 
