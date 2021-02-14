@@ -14,43 +14,23 @@ We have gathered and analyzed the fluctuation in incidence and fatality rates fo
 Our results highlight the urgent need for African countries to put cancer in the forefront of health care priorities. The African continent suffers from a shortage of medical equipment, medical staff and epidemiological expertise. We see a need for implementing more accurate preventive strategies to tackle this disease as many cases are likely preventable. Opportunities exist for vaccination programs for cervical and liver cancer, genetic testing and use of new targeted therapies for breast and prostate cancer, and positive changes in lifestyle for lung, colorectal and bladder cancers. Such recommendations should be tailored for the different African regions depending on their disease profiles and specific needs. 
 
 
-#### Breast cancer
-https://github.com/inestej/cancer_africa/blob/master/BreastCancerAfrica.ipynb
-
-#### Prostate cancer
-https://github.com/inestej/cancer_africa/blob/master/ProstateCancerAfrica.ipynb
-
-#### Cervical cancer
-https://github.com/inestej/cancer_africa/blob/master/CervicalCancerAfrica.ipynb
-
-#### Lung cancer
-https://github.com/inestej/cancer_africa/blob/master/LungCancerAfrica.ipynb
-
-#### Stomach cancer
-https://github.com/inestej/cancer_africa/blob/master/StomachCancerAfrica.ipynb
-
-#### Colorectal Cancer
-https://github.com/inestej/cancer_africa/blob/master/ColorectalCancerAfrica.ipynb
-
-#### Esophageal cancer
-https://github.com/inestej/cancer_africa/blob/master/EosophagusCancerAfrica.ipynb
-
-#### Liver cancer
-https://github.com/inestej/cancer_africa/blob/master/LiverCancerAfrica.ipynb
-
-#### Bladder cancer
-https://github.com/inestej/cancer_africa/blob/master/BladderCancerAfrica.ipynb 
-
-
-#### Thyroid cancer
-https://github.com/inestej/cancer_africa/blob/master/ThyroidCancerAfrica.ipynb
+[Breast cancer](https://github.com/inestej/cancer_africa/blob/master/BreastCancerAfrica.ipynb), 
+[Prostate cancer](https://github.com/inestej/cancer_africa/blob/master/ProstateCancerAfrica.ipynb), 
+[Cervical cancer](https://github.com/inestej/cancer_africa/blob/master/CervicalCancerAfrica.ipynb), 
+[Lung cancer](https://github.com/inestej/cancer_africa/blob/master/LungCancerAfrica.ipynb), 
+[Stomach cancer](https://github.com/inestej/cancer_africa/blob/master/StomachCancerAfrica.ipynb), 
+[Colorectal Cancer](https://github.com/inestej/cancer_africa/blob/master/ColorectalCancerAfrica.ipynb), 
+[Esophageal cancer](https://github.com/inestej/cancer_africa/blob/master/EosophagusCancerAfrica.ipynb), 
+[Liver cancer](https://github.com/inestej/cancer_africa/blob/master/LiverCancerAfrica.ipynb), 
+[Bladder cancer](https://github.com/inestej/cancer_africa/blob/master/BladderCancerAfrica.ipynb) and 
+[Thyroid cancer](https://github.com/inestej/cancer_africa/blob/master/ThyroidCancerAfrica.ipynb). 
 
 ## Available medical devices
-https://github.com/inestej/cancer_africa/blob/master/Medical_devices.ipynb
-https://github.com/inestej/cancer_africa/blob/master/Medical%20Devices%20Africa.xlsx
+[Medical devices code](https://github.com/inestej/cancer_africa/blob/master/Medical_devices.ipynb) and 
+[Medical devices Africa.xlsx](https://github.com/inestej/cancer_africa/blob/master/Medical%20Devices%20Africa.xlsx). 
 
 ## Human Development Index (HDI) and Cancer (Breast, Prostate & Cervical)
-https://github.com/inestej/cancer_africa/blob/master/hdi_versus_cancer.R
+[HDI code](https://github.com/inestej/cancer_africa/blob/master/hdi_versus_cancer.R)
 
 # Citation
 
