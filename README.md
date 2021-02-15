@@ -30,11 +30,16 @@ Medical devices data including equipment for Computed Tomography, Magnetic Reson
 Nuclear Medicine, Linear accelerator, Telecobalt unit, Radiotherapy, Mammographs1 were extracted from
 WHO (https://apps.who.int/gho/data/node.country). Data are available in 
 [Medical devices Africa.xlsx](https://github.com/inestej/cancer_africa/blob/master/Medical%20Devices%20Africa.xlsx). 
-The code producing descriptive results is developed in R: 
+The code producing descriptive results is developed in Python: 
 [Medical devices code](https://github.com/inestej/cancer_africa/blob/master/Medical_devices.ipynb) and 
 
 #### Human Development Index (HDI) and Cancer (Breast, Prostate & Cervical)
-[HDI code](https://github.com/inestej/cancer_africa/blob/master/hdi_versus_cancer.R)
+The Human Development Index (HDI) is a summary measure of achievement in key dimensions of
+human development: a long and healthy life, standard of living, and education levels. The HDI is the
+geometric mean of normalized indices for each of these three dimensions. It also offers other composite
+indices as broader proxies for some of the key issues of human development such as wealth or income
+inequality, gender disparity, and poverty rates. Country specific HDI data were downloaded from UNESCO
+(http://uis.unesco.org/). Available code is developed in R [HDI code](https://github.com/inestej/cancer_africa/blob/master/hdi_versus_cancer.R).
 
 
 
