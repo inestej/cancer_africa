@@ -26,8 +26,12 @@ Our results highlight the urgent need for African countries to put cancer in the
 [Thyroid cancer](https://github.com/inestej/cancer_africa/blob/master/ThyroidCancerAfrica.ipynb). 
 
 #### Available medical devices
-[Medical devices code](https://github.com/inestej/cancer_africa/blob/master/Medical_devices.ipynb) and 
+Medical devices data including equipment for Computed Tomography, Magnetic Resonance Imaging, Positron Emission Tomography, Gamma Camera or
+Nuclear Medicine, Linear accelerator, Telecobalt unit, Radiotherapy, Mammographs1 were extracted from
+WHO (https://apps.who.int/gho/data/node.country). Data are available in 
 [Medical devices Africa.xlsx](https://github.com/inestej/cancer_africa/blob/master/Medical%20Devices%20Africa.xlsx). 
+The code producing descriptive results is developed in R: 
+[Medical devices code](https://github.com/inestej/cancer_africa/blob/master/Medical_devices.ipynb) and 
 
 #### Human Development Index (HDI) and Cancer (Breast, Prostate & Cervical)
 [HDI code](https://github.com/inestej/cancer_africa/blob/master/hdi_versus_cancer.R)
