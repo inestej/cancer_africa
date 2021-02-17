@@ -13,7 +13,7 @@ We have gathered and analyzed the fluctuation in incidence and fatality rates fo
 
 Our results highlight the urgent need for African countries to put cancer in the forefront of health care priorities. The African continent suffers from a shortage of medical equipment, medical staff and epidemiological expertise. We see a need for implementing more accurate preventive strategies to tackle this disease as many cases are likely preventable. Opportunities exist for vaccination programs for cervical and liver cancer, genetic testing and use of new targeted therapies for breast and prostate cancer, and positive changes in lifestyle for lung, colorectal and bladder cancers. Such recommendations should be tailored for the different African regions depending on their disease profiles and specific needs. 
 
-
+To enable the reproducibility of our work, all scripts and material used for the data extraction and analysis were share:  
 [Breast cancer](https://github.com/inestej/cancer_africa/blob/master/BreastCancerAfrica.ipynb), 
 [Prostate cancer](https://github.com/inestej/cancer_africa/blob/master/ProstateCancerAfrica.ipynb), 
 [Cervical cancer](https://github.com/inestej/cancer_africa/blob/master/CervicalCancerAfrica.ipynb), 
@@ -31,7 +31,9 @@ Nuclear Medicine, Linear accelerator, Telecobalt unit, Radiotherapy, Mammographs
 WHO (https://apps.who.int/gho/data/node.country). Data are available in 
 [Medical devices Africa.xlsx](https://github.com/inestej/cancer_africa/blob/master/Medical%20Devices%20Africa.xlsx). 
 The code producing descriptive results is developed in Python: 
-[Medical devices code](https://github.com/inestej/cancer_africa/blob/master/Medical_devices.ipynb) and 
+[Medical devices code](https://github.com/inestej/cancer_africa/blob/master/Medical_devices.ipynb).
+
+For the calculation of MAM, let's take the case of Botswana from Table S13 (in the Supplementary materials of the paper). The density of women aged between 50 and 69 is equal to 5.8 i.e. 5.8% of the population is constituted of women aged between 50-69. On the other hand, there are 19.10 MAMs for women aged 50-60 years in 1,000,000 inhabitants. To obtain the number of MAMs per 1,000,000 inhabitants, we multiplied 5.8 by 19.10 and divided by 100. This gives 1.11 from Table S17 (Supplementary materials of the paper).
 
 #### Human Development Index (HDI) and Cancer (Breast, Prostate & Cervical)
 The Human Development Index (HDI) is a summary measure of achievement in key dimensions of
