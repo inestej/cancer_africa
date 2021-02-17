@@ -44,4 +44,5 @@ inequality, gender disparity, and poverty rates. Country specific HDI data were 
 (http://uis.unesco.org/). Available code is developed in R [HDI code](https://github.com/inestej/cancer_africa/blob/master/hdi_versus_cancer.R).
 
 
+## Citation
 
