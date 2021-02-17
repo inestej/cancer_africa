@@ -30,7 +30,7 @@ Medical devices data including equipment for Computed Tomography, Magnetic Reson
 Nuclear Medicine, Linear accelerator, Telecobalt unit, Radiotherapy, Mammographs1 were extracted from
 WHO (https://apps.who.int/gho/data/node.country). The source is the Global Atlas of Medical Devices established in 2017 by the World Health Organization. Data are available in 
 [Medical devices Africa.xlsx](https://github.com/inestej/cancer_africa/blob/master/Medical%20Devices%20Africa.xlsx). 
-The code producing descriptive results is developed in Python: 
+The script producing descriptive results is developed in Python: 
 [Medical devices code](https://github.com/inestej/cancer_africa/blob/master/Medical_devices.ipynb).
 
 For the calculation of MAM, let's take the case of Botswana from Table S13 (in the Supplementary materials of the paper). The density of women aged between 50 and 69 is equal to 5.8 i.e. 5.8% of the population is constituted of women aged between 50-69. On the other hand, there are 19.10 MAMs for women aged 50-60 years in 1,000,000 inhabitants. To obtain the number of MAMs per 1,000,000 inhabitants, we multiplied 5.8 by 19.10 and divided by 100. This gives 1.11 from Table S17 (Supplementary materials of the paper).
