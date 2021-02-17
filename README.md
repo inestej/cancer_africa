@@ -28,7 +28,7 @@ To enable the reproducibility of our work, all scripts and material used for the
 #### Available medical devices
 Medical devices data including equipment for Computed Tomography, Magnetic Resonance Imaging, Positron Emission Tomography, Gamma Camera or
 Nuclear Medicine, Linear accelerator, Telecobalt unit, Radiotherapy, Mammographs1 were extracted from
-WHO (https://apps.who.int/gho/data/node.country). Data are available in 
+WHO (https://apps.who.int/gho/data/node.country). The source is the Global Atlas of Medical Devices established in 2017 by the World Health Organization. Data are available in 
 [Medical devices Africa.xlsx](https://github.com/inestej/cancer_africa/blob/master/Medical%20Devices%20Africa.xlsx). 
 The code producing descriptive results is developed in Python: 
 [Medical devices code](https://github.com/inestej/cancer_africa/blob/master/Medical_devices.ipynb).
